@@ -1,3 +1,5 @@
+// BUNA TEKRAR BAK.
+
 package A02_metotlar_kendi_orneklerim;
 
 import static A02_metotlar_kendi_orneklerim.C09_satirdakiMinMaxSayi.satirMinSayi;

@@ -125,15 +125,15 @@ public class A09_odev {
         return ortalama;
     }
     
-    public static double[] herSutunOrtalamasi(int[][] dizi){
+    public static double[] herSutunOrtalamasi(int[][] dizi){ // TEKRAR BAK.
         double[] ortalama = new double[dizi[0].length];
         
-        for (int i = 0; i < dizi[0].length; i++) {
-            int toplam = 0;
-            for (int j = 0; j < dizi.length; j++) {
-                toplam += dizi[j][i];
+        for (int j = 0; j < dizi[0].length; j++) {
+            double toplam = 0;
+            for (int i = 0; i < dizi.length; i++) {
+                toplam += dizi[i][j];
             }
-            ortalama[i] = (double) toplam / dizi.length;
+            ortalama[j] = toplam / dizi.length;
         }
         return ortalama;
     }
